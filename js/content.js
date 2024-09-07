@@ -43,22 +43,22 @@ document.addEventListener('DOMContentLoaded', function() {
         link.href = 'https://eifcltd.com/';
     } else if (contentId === 'diamond') {
         headerText.innerHTML = 'Diamond Financial Consulting';
-        bodyText.innerHTML = 'This is the description for project two.';
+        bodyText.innerHTML = 'I developed the Diamond Financial website, a sleek and professional platform tailored for financial consulting services. Built on WordPress, the website features a modern design and intuitive navigation, enhancing user experience and accessibility. It includes detailed information on services, a blog for financial insights, and an integrated booking system for client consultations. The website effectively communicates the brand’s expertise and commitment to helping clients achieve their financial goals, making it a reliable resource for both existing and potential clients.';
         link.href = 'https://diamondfinancial.suiccabranding.online';
     }
     else if (contentId === 'talley') {
         headerText.innerHTML = 'Talley Financial Group';
-        bodyText.innerHTML = 'This is the description for project two.';
+        bodyText.innerHTML = "I developed the Talley Financial website, a professional platform dedicated to offering financial insights, services, and resources. Built on WordPress, the site combines a clean, modern design with a user-friendly interface, making it easy for visitors to navigate and access essential information. Key features include detailed service descriptions, client testimonials, and an integrated contact form for seamless communication. The site reflects a commitment to providing valuable financial guidance and showcases the brand's expertise in the industry.";
         link.href = 'https://talleyfinancial.suiccabranding.online/';
     }
     else if (contentId === 'junction') {
         headerText.innerHTML = 'The Junction';
-        bodyText.innerHTML = 'This is the description for project two.';
+        bodyText.innerHTML = 'I developed a news platform focused on delivering comprehensive updates on economic health and agricultural developments. The platform integrates real-time data, expert analyses, and interactive tools designed to support informed decision-making for stakeholders in the agricultural sector. This solution was built on WordPress, leveraging its flexibility to create an engaging and informative user experience.';
         link.href = 'https://thejunction.ng/';
     }
     else if (contentId === 'unicornbabes') {
         headerText.innerHTML = 'Unicornbabes';
-        bodyText.innerHTML = 'This is the description for project two.';
+        bodyText.innerHTML = 'I developed an eCommerce website for a beauty and lip care retail business using WordPress with WooCommerce and Elementor. I also integrated the Paystack payment gateway to enable secure and seamless online transactions.';
         link.href = 'http://unicornbabes.ng/';
     }
 
