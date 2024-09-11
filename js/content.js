@@ -33,6 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
             'images/gallery/unicornbabes1.png',
             'images/gallery/unicornbabes2.png',
             'images/gallery/unicornbabes3.png'
+        ],
+        'demo': [
+            'images/gallery/figma.png',
+             'images/gallery/figma.png',
+              'images/gallery/figma.png'
         ]
     };
 
@@ -60,6 +65,11 @@ document.addEventListener('DOMContentLoaded', function() {
         headerText.innerHTML = 'Unicornbabes';
         bodyText.innerHTML = 'I developed an eCommerce website for a beauty and lip care retail business using WordPress with WooCommerce and Elementor. I also integrated the Paystack payment gateway to enable secure and seamless online transactions.';
         link.href = 'http://unicornbabes.ng/';
+    }
+    else if (contentId === 'demo') {
+        headerText.innerHTML = 'Demo Project';
+        bodyText.innerHTML = 'I replicated a figma design using html,css and Javascript here is a link to <a href="https://www.figma.com/design/SxRF76pb2lTmRJSNIelROA/Frontend-Developer-Test-(Copy)?m=auto&t=lhhLQJzRLrdxgVsw-6" target="_blank" rel="noopener noreferrer">figma design</a>. Click on the button below to see the live project';
+        link.href = 'https://pagexoxo.netlify.app/';
     }
 
     // Get the image paths for the current contentId or use a default set if not matched
