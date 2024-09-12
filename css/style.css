@@ -1374,7 +1374,14 @@ header.header-mobile.header-light #menu-btn {
     border-top-color: rgba(255, 255, 255, .1);
 }
 
-
+/* custom */
+.swipe{
+    color:#fff;
+    font-size: 20px;
+}
+.white{
+    color:#fff;
+}
 
 /* ================================================== */
 
