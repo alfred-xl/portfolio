@@ -38,6 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
             'images/gallery/figma.png',
              'images/gallery/figma.png',
               'images/gallery/figma.png'
+        ],
+        'dialserve': [
+            'images/gallery/dialserve1.png',
+            'images/gallery/dialserve2.png',
+            'images/gallery/dialserve3.png'
         ]
     };
 
@@ -70,6 +75,11 @@ document.addEventListener('DOMContentLoaded', function() {
         headerText.innerHTML = 'Demo Project';
         bodyText.innerHTML = 'I replicated a figma design using html,css and Javascript here is a link to <a href="https://www.figma.com/design/SxRF76pb2lTmRJSNIelROA/Frontend-Developer-Test-(Copy)?m=auto&t=lhhLQJzRLrdxgVsw-6" target="_blank" rel="noopener noreferrer">figma design</a>. Click on the button below to see the live project';
         link.href = 'https://pagexoxo.netlify.app/';
+    }
+    else if (contentId === 'dialserve') {
+        headerText.innerHTML = 'Dialserve';
+        bodyText.innerHTML = 'I developed, Dialserve Solutions which offers remote call center job opportunities tailored for flexibility, allowing individuals to work from home on their own schedules. ';
+        link.href = 'https://dialserve.suiccabranding.online/';
     }
 
     // Get the image paths for the current contentId or use a default set if not matched
