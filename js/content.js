@@ -43,6 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
             'images/gallery/dialserve1.png',
             'images/gallery/dialserve2.png',
             'images/gallery/dialserve3.png'
+        ],
+        'mosh': [
+            'images/gallery/mosh1.png',
+            'images/gallery/mosh2.png',
+            'images/gallery/mosh3.png'
         ]
     };
 
@@ -81,6 +86,12 @@ document.addEventListener('DOMContentLoaded', function() {
         bodyText.innerHTML = 'I developed, Dialserve Solutions which offers remote call center job opportunities tailored for flexibility, allowing individuals to work from home on their own schedules. ';
         link.href = 'https://dialserve.suiccabranding.online/';
     }
+    else if (contentId === 'mosh') {
+        headerText.innerHTML = 'Oladunni Moshood';
+        bodyText.innerHTML = 'A well built personal Portfolio for an Multidisciplinary Artist, which tells you more about the artist and displays his works ';
+        link.href = 'https://oladunnimoshood.com/';
+    }
+
 
     // Get the image paths for the current contentId or use a default set if not matched
     const images = imagePaths[contentId] || ['images/gallery/default1.jpg', 'images/gallery/default2.jpg', 'images/gallery/default3.jpg'];
